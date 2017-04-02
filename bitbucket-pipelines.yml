@@ -1,0 +1,14 @@
+image: luckstock/ubuntu-node:7.7.4
+
+pipelines:
+  default:
+    - step:
+        script:
+          - npm install
+          - npm test
+  branches:
+    master:
+      - step:
+          script:
+            - echo "Running on commit to the master branch"
+            - ssh $USER@$HOST "curl -sL https://raw.githubusercontent.com/LuckStock/cdeploy/master/bitbucket-deploy.sh | bash -s -- run -r $BITBUCKET_REPO_SLUG -o $BITBUCKET_REPO_OWNER -c $BITBUCKET_COMMIT"

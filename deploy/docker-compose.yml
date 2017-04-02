@@ -1,0 +1,56 @@
+version: "2"
+services:
+  proxy:
+    image: jwilder/nginx-proxy:alpine
+    networks:
+      - front
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    container_name: nginx-proxy
+    volumes:
+      - "../../certs:/etc/nginx/certs:ro"
+      - "/etc/nginx/vhost.d"
+      - "/usr/share/nginx/html"
+      - "/var/run/docker.sock:/tmp/docker.sock:ro"
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: letsencrypt-nginx-proxy-companion
+    restart: unless-stopped
+    depends_on:
+      - proxy
+    volumes_from:
+      - "proxy"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "../../certs:/etc/nginx/certs:rw"
+
+  api:
+    build: ../server
+    restart: always
+    networks:
+      - front
+    ports:
+        - "3000"
+    environment:
+      - EXPERTS_DB_URL=db
+      - VIRTUAL_HOST=dh.luckstock.com
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=3000
+      - LETSENCRYPT_HOST=dh.luckstock.com
+      - LETSENCRYPT_EMAIL=dev@luckstock.com
+
+  api_service_a:
+    extends:
+      service: api
+    container_name: api_service_a
+
+  api_service_b:
+    extends:
+      service: api
+    container_name: api_service_b
+
+networks:
+  front:

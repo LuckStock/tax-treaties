@@ -1,0 +1,54 @@
+{
+    "chapter3status": [
+        {
+            "code": "200",
+            "name": "Corporation",
+            "taxtreaty": 0
+        },
+        {
+            "code": "205",
+            "name": "Disregarded entity",
+            "taxtreaty": 1
+        },
+        {
+            "code": "210",
+            "name": "Simple trust",
+            "taxtreaty": 1
+        },
+        {
+            "code": "215",
+            "name": "Grantor trust",
+            "taxtreaty": 1
+        },
+        {
+            "code": "220",
+            "name": "Complex trust",
+            "taxtreaty": 0
+        },
+        {
+            "code": "225",
+            "name": "Estate",
+            "taxtreaty": 0
+        },
+        {
+            "code": "230",
+            "name": "Government",
+            "taxtreaty": 0
+        },
+        {
+            "code": "235",
+            "name": "Central Bank of Issue",
+            "taxtreaty": 0
+        },
+        {
+            "code": "240",
+            "name": "Tax-exempt organization",
+            "taxtreaty": 0
+        },
+        {
+            "code": "245",
+            "name": "Private foundation",
+            "taxtreaty": 0
+        }
+    ]
+}

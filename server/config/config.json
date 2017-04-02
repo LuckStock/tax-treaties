@@ -1,0 +1,20 @@
+{
+  "development": {
+
+    "api_port"  : 3000,
+    "api_host" : "http://127.0.0.1:3000",
+    "debug" : true
+  },
+  "test": {
+
+    "api_port"  : 3000,
+    "api_host" : "//127.0.0.1:3000",
+    "debug" : true
+  },
+  "production": {
+
+    "api_port"  : 3000,
+    "api_host" : "//127.0.0.1:3000",
+    "debug" : false
+  }
+}

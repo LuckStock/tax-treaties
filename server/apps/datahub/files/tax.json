@@ -1,0 +1,342 @@
+{
+    "AM": {
+        "country_name": "Armenia",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "AU": {
+        "country_name": "Australia",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "AT": {
+        "country_name": "Austria",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "AZ": {
+        "country_name": "Azerbaijan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "BD": {
+        "country_name": "Bangladesh",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "BB": {
+        "country_name": "Barbados",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "BY": {
+        "country_name": "Belarus",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "BE": {
+        "country_name": "Belgium",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "BG": {
+        "country_name": "Bulgaria",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "CA": {
+        "country_name": "Canada",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "CN": {
+        "country_name": "China",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "11(2)"
+    },
+    "CY": {
+        "country_name": "Cyprus",
+        "withholding_tax_rate": 0,
+        "treaty_article": "14(1)"
+    },
+    "CZ": {
+        "country_name": "Czech Republic",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "DK": {
+        "country_name": "Denmark",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "EG": {
+        "country_name": "Egypt",
+        "withholding_tax_rate": 0.15,
+        "treaty_article": "13(1)"
+    },
+    "EE": {
+        "country_name": "Estonia",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)(b)"
+    },
+    "FI": {
+        "country_name": "Finland",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "FR": {
+        "country_name": "France",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "GE": {
+        "country_name": "Georgia",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "DE": {
+        "country_name": "Germany",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "GR": {
+        "country_name": "Greece",
+        "withholding_tax_rate": 0,
+        "treaty_article": "7"
+    },
+    "HU": {
+        "country_name": "Hungary",
+        "withholding_tax_rate": 0,
+        "treaty_article": "11(1)"
+    },
+    "IS": {
+        "country_name": "Iceland",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "IN": {
+        "country_name": "India",
+        "withholding_tax_rate": 0.15,
+        "treaty_article": "12(2)"
+    },
+    "ID": {
+        "country_name": "Indonesia",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "13(b)"
+    },
+    "IE": {
+        "country_name": "Ireland",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "IL": {
+        "country_name": "Israel",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "14(2)"
+    },
+    "IT": {
+        "country_name": "Italy",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "JM": {
+        "country_name": "Jamaica",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "JP": {
+        "country_name": "Japan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "KZ": {
+        "country_name": "Kazakhstan",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "KR": {
+        "country_name": "Korea, Republic of",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "14(2)"
+    },
+    "KG": {
+        "country_name": "Kyrgyzstan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "LV": {
+        "country_name": "Latvia",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)(b)"
+    },
+    "LT": {
+        "country_name": "Lithuania",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)(b)"
+    },
+    "LU": {
+        "country_name": "Luxembourg",
+        "withholding_tax_rate": 0,
+        "treaty_article": "7"
+    },
+    "MT": {
+        "country_name": "Malta",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "MX": {
+        "country_name": "Mexico",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "MD": {
+        "country_name": "Moldova, Republic of",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "MA": {
+        "country_name": "Morocco",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "NL": {
+        "country_name": "Netherlands",
+        "withholding_tax_rate": 0,
+        "treaty_article": "13(1)"
+    },
+    "NZ": {
+        "country_name": "New Zealand",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "NO": {
+        "country_name": "Norway",
+        "withholding_tax_rate": 0,
+        "treaty_article": "10(1)"
+    },
+    "PK": {
+        "country_name": "Pakistan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "8(1)"
+    },
+    "PH": {
+        "country_name": "Philippines",
+        "withholding_tax_rate": 0.15,
+        "treaty_article": "13(2)"
+    },
+    "PL": {
+        "country_name": "Poland",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "13(2)"
+    },
+    "PT": {
+        "country_name": "Portugal",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "13(2)"
+    },
+    "RO": {
+        "country_name": "Romania",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "RU": {
+        "country_name": "Russian Federation",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "SK": {
+        "country_name": "Slovakia",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(2)"
+    },
+    "SI": {
+        "country_name": "Slovenia",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "ZA": {
+        "country_name": "South Africa",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "ES": {
+        "country_name": "Spain",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "LK": {
+        "country_name": "Sri Lanka",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "SE": {
+        "country_name": "Sweden",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "CH": {
+        "country_name": "Switzerland",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "TJ": {
+        "country_name": "Tajikistan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "TH": {
+        "country_name": "Thailand",
+        "withholding_tax_rate": 0.05,
+        "treaty_article": "12(2)"
+    },
+    "TT": {
+        "country_name": "Trinidad and Tobago",
+        "withholding_tax_rate": 0,
+        "treaty_article": "14(2)"
+    },
+    "TN": {
+        "country_name": "Tunisia",
+        "withholding_tax_rate": 0.15,
+        "treaty_article": "12(2)"
+    },
+    "TM": {
+        "country_name": "Turkmenistan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "TR": {
+        "country_name": "Turkey",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "UA": {
+        "country_name": "Ukraine",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)"
+    },
+    "GB": {
+        "country_name": "United Kingdom",
+        "withholding_tax_rate": 0,
+        "treaty_article": "12(1)"
+    },
+    "UZ": {
+        "country_name": "Uzbekistan",
+        "withholding_tax_rate": 0,
+        "treaty_article": "3(1)(a)"
+    },
+    "VE": {
+        "country_name": "Venezuela, Bolivarian Republic of",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2)(b)"
+    },
+    "VN": {
+        "country_name": "Vietnam",
+        "withholding_tax_rate": 0.1,
+        "treaty_article": "12(2b)"
+    },
+    "Other": {
+        "country_name": "Other",
+        "treaty_article": "-",
+        "withholding_tax_rate": 0.3
+    }
+}

@@ -1,0 +1,17 @@
+FROM luckstock/ubuntu-node:latest
+MAINTAINER shota@luckstock.com
+
+# Create app folder
+RUN mkdir -p /app
+WORKDIR /app
+
+# Cache npm dependencies
+COPY ../package.json /app/
+npm run build
+
+# Copy application files
+COPY . /app
+
+EXPOSE 3000
+
+CMD ["npm", "start"]

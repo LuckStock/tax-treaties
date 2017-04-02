@@ -1,0 +1,60 @@
+{
+  "name": "Tax-Treaties",
+  "version": "1.0.0",
+  "description": "Tax Treaties between US and Foreign Countries with withholding rates for Royalties (audio).",
+  "author": "Shota Megrelishvili <shota@luckstock.com> (https://luckstock.com)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckStock/tax-treaties.git"
+  },
+  "scripts": {
+    "build": "set NODE_ENV=\"production\" && npm run install-prod",
+    "build-dev": "set NODE_ENV=\"development\" && npm run install-dev",
+    "install-prod": "npm install --production",
+    "install-dev": "npm install",
+    "test": "node test/index.js | tap-spec && exit 0",
+    "watch": "./node_modules/.bin/nodemon server/index.js",
+    "dev": "set DEBUG=app && npm run watch",
+    "lint-staged": "lint-staged",
+    "start": "node ./server/index.js",
+    "foo": "echo \"fooo\" && exit 0",
+    "bar": "echo \"bar\" && exit 0"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "lint-staged": "^3.3.1",
+    "nodemon": "^1.11.0",
+    "pre-commit": "^1.2.2",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "node": true
+    }
+  },
+  "pre-commit": [
+    "lint-staged",
+    "test"
+  ]
+}

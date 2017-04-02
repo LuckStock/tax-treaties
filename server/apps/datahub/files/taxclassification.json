@@ -1,0 +1,44 @@
+{
+    "taxclassification": [
+        {
+            "code": "100",
+            "name": "Individual/Sole Proprietor"
+        },
+        {
+            "code": "105",
+            "name": "C Corporation"
+        },
+        {
+            "code": "110",
+            "name": "S Corporation"
+        },
+        {
+            "code": "115",
+            "name": "Partnership"
+        },
+        {
+            "code": "120",
+            "name": "Trust/Estate"
+        },
+        {
+            "code": "125",
+            "name": "Limited Liability Company - C"
+        },
+        {
+            "code": "130",
+            "name": "Limited Liability Company - S"
+        },
+        {
+            "code": "135",
+            "name": "Limited Liability Company - P"
+        },
+        {
+            "code": "140",
+            "name": "Exempt Payee"
+        },
+        {
+            "code": "145",
+            "name": "Other"
+        }
+    ]
+}
