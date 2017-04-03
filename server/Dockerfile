@@ -1,4 +1,4 @@
-FROM luckstock/ubuntu-node:latest
+FROM luckstock/ubuntu-node:7.7.3
 MAINTAINER shota@luckstock.com
 
 # Create app folder

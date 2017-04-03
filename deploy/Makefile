@@ -1,5 +1,5 @@
 UI=ui_service_
-API=api_service_
+API=dh_service_
 
 help:
 	@echo "Usage: # make deploy|deploy-single|logs|inspect|down|clean\n\n"
