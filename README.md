@@ -1,5 +1,6 @@
 # DataHub Microservice
 
+> v1.0.0 
 > Author: [Shota Megrelishvili](shota@luckstock.com) & [Beka Tomashvili](beka@luckstock.com) 3/28/2017 for LuckStock.com - Royalty-free Marketplace
 
 Easily get Tax Treaty article and Tax Withholding for Royalties (audio) between US and foreign countries.
