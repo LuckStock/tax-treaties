@@ -17,6 +17,8 @@ help:
 usage:
 	@echo "!!! For hints, type: # make help\n"
 
+up: deploy
+
 deploy: proxy ssl-companion build-api run-api clean usage
 
 deploy-single: proxy ssl-companion build-api run-api-single clean usage
