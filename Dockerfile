@@ -6,8 +6,8 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # Cache npm dependencies
-COPY ../package.json /app/
-npm run build
+COPY package.json /app/
+RUN npm run build
 
 # Copy application files
 COPY . /app

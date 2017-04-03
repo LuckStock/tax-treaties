@@ -1,5 +1,6 @@
-UI=ui_service_
-API=dh_service_
+PROJECT=dh
+UI=$(PROJECT)_service_
+API=$(PROJECT)_service_
 
 help:
 	@echo "Usage: # make deploy|deploy-single|logs|inspect|down|clean\n\n"
@@ -30,21 +31,21 @@ ssl-companion:
 
 build-api:
 	@echo "\n--> Building API\n\n"
-	sudo docker-compose build api $(API)a $(API)b
+	sudo docker-compose build $(PROJECT) $(API)a $(API)b
 
 run-api-single:
 	@echo "\n--> Restarting API Service worker (Single)\n\n"
 	sudo docker-compose stop $(API)a $(API)b
-	sudo docker-compose up -d --force-recreate --remove-orphans $(API)a
+	sudo docker-compose up -d --force-recreate $(API)a
 
 run-api:
 	@echo "\n--> Restarting API Service worker (A)\n\n"
 	sudo docker-compose stop $(API)a
-	sudo docker-compose up -d --force-recreate --remove-orphans $(API)a
+	sudo docker-compose up -d --force-recreate $(API)a
 	sleep 2
 	@echo "\n--> Restarting API Service worker (B)\n\n"
 	sudo docker-compose stop $(API)b
-	sudo docker-compose up -d --force-recreate --remove-orphans $(API)b
+	sudo docker-compose up -d --force-recreate $(API)b
 
 clean:
 	@echo "\n--> Removing excessive images & containers to save space\n\n"
